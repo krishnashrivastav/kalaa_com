@@ -1,0 +1,191 @@
+.header{
+    /* height: 70px; */
+    display: block;
+    width: 100%;
+    background-size: cover;
+    background-repeat: repeat;
+    background-color: #F5E8C7;
+ 
+}
+
+.header_inner_wrap{
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 80%;
+    box-sizing: inherit;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.columns{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+    flex-wrap: wrap;
+    box-sizing: inherit;
+}
+
+.cl_1_shopCateg{
+    width: 25%;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: flex-start;
+    box-sizing: inherit;
+}
+
+.icon_text{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+    align-items: flex-start;
+    box-sizing: inherit;
+}
+
+.header_MenuIcon{
+    display: inline-flex;
+    border-radius: 50%;
+    box-sizing: inherit;
+    color: #6f4c5b;
+    font-weight: 100;
+    text-decoration: underline;
+    text-align: left;
+   
+     
+}
+
+.text_shopAllCategory{
+    color: #6f4c5b;
+    font-family: 'Sen';
+    font-size: 18px;
+    font-weight: 200;
+    margin-left: 16px;
+    box-sizing: inherit;
+    display: block;
+    text-align: justify;
+    
+}
+
+
+.cl_2_logo{
+    width: 40%;
+    align-items: center;
+    text-align: start;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    box-sizing: inherit;
+    display: flex;
+    /* flex-wrap: nowrap; */
+    flex-direction: column;
+}
+
+.header_logo{
+    margin: 0;
+    box-sizing: inherit;
+}
+
+
+.cl_3_loginCart{
+    width: 25%;
+    align-items: flex-end;
+    text-align: right;
+    justify-content: center;
+    margin-right: 0px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.login_Cart{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    box-sizing: inherit;
+}
+
+.icon_Login{
+    margin-right: 40px;
+    color: #6f4c5b;
+    display: inline-flex;
+    border-radius: 50%;
+    box-sizing: inherit;
+}
+
+.icon_cart{
+    margin-right: 0px;
+    color: #6f4c5b;
+    display: inline-flex;
+    border-radius: 50%;
+    box-sizing: inherit;
+}
+
+/* .header_search{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    border-radius: 24px;
+} */
+
+/* .header_searchInput{
+    height: 12px;
+    padding: 10px;
+    border: none;
+    width: 100%;
+} */
+
+/* .header_searchIcon{
+    padding: 5px;
+    height: 22px !important;
+    background-color: #6F4C5B;
+    color: white;
+} */
+
+/* .header_nav{
+    display: flex;
+    justify-content: space-evenly;
+} */
+
+/* .header_option{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #6F4C5B;
+} */
+
+/* .header_optionLineOne{
+    font-size: 10px;
+} */
+
+/* .header_optionLineTwo{
+    font-size: 13px;
+    font-weight: 800;
+} */
+
+/* Ruluko : font for logo used */
+
